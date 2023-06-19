@@ -31,4 +31,11 @@ generate:
 server:
 	hexo server
 
-.PHONY: check install generate server
+# 清空 public 缓存
+clean:
+	hexo clean
+
+# 综合三个操作
+hexo: clean generate server
+
+.PHONY: check install generate server clean hexo
