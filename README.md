@@ -24,24 +24,22 @@ Hexo 配置 butterfly 主题（搭建模板 v2）
 1. 克隆项目
 
 ```bash
-git clone git@github.com:pokeyaro/hexo-theme-pretty.git@v2.0.0
+git clone git@github.com:pokeyaro/hexo-theme-pretty.git
 ```
 
-2. 安装依赖
+2. 进入项目根路径
 
 ```bash
 cd hexo-theme-pretty/
-yarn
 ```
 
-3. 渲染启动
+3. 初始化并本地运行
 
 ```bash
-hexo generate
-hexo server
+./start.sh
 ```
 
-此时，在浏览器中访问 `http://localhost:4000`，应该能够看到我们的网站了。
+等运行完毕，在浏览器中访问 `http://localhost:4000`，应该能够看到我们的网站了。
 
 
 ## v2 截图
