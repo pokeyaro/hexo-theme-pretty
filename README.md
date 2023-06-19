@@ -41,6 +41,7 @@ cd hexo-theme-pretty/
 
 等运行完毕，在浏览器中访问 `http://localhost:4000`，应该能够看到我们的网站了。
 
+Tips：该脚本的本质是运行 Make 的 target，如果本地没有 Make 命令，也可以直接使用原生，详细见 Makefile 内容。
 
 ## v2 截图
 
