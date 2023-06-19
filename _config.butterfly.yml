@@ -40,11 +40,11 @@ social:
 # --------------------------------------
 
 # Favicon（网站图标）
-favicon: /img/favicon.jpg
+favicon: /lib/img/favicon.jpg
 
 # Avatar (头像)
 avatar:
-  img: /img/avatar.jpg
+  img: /lib/img/avatar.jpg
   effect: false
 
 # Disable all banner image
@@ -213,7 +213,7 @@ footer:
     enable: true
     since: 2023
   custom_text:
-  copyright: true # Copyright of theme and framework
+  copyright: false # Copyright of theme and framework
 
 # aside (侧边栏)
 # --------------------------------------
@@ -644,7 +644,7 @@ tag_ui: # 留空或 index
 # Website Background (设置网站背景)
 # can set it to color or image (可设置图片 或者 颜色)
 # The formal of image: url(http://xxxxxx.com/xxx.jpg)
-background: url("../img/one-picture-flow.png")
+background: url("../lib/img/background.png")
 
 # Footer Background
 footer_bg: false
@@ -693,7 +693,7 @@ canvas_nest:
   color: '0,0,255' #color of lines, default: '0,0,0'; RGB values: (R,G,B).(note: use ',' to separate.)
   opacity: 0.7 # the opacity of line (0~1), default: 0.5.
   zIndex: -1 # z-index property of the background, default: -1.
-  count: 50 # the number of lines, default: 99.
+  count: 70 # the number of lines, default: 99.
   mobile: false
 
 # Mouse click effects: fireworks (鼠标点击效果: 烟火特效)
@@ -912,7 +912,7 @@ css_prefix: true
 # 插入代码到头部 </head> 之前 和 底部 </body> 之前
 inject:
   head:
-    - <link rel="stylesheet" href="/css/base.css" media="defer" onload="this.media='all'">
+    - <link rel="stylesheet" href="/lib/css/base.css" media="defer" onload="this.media='all'">
   bottom:
   # - <script src="xxxx"></script>
 
