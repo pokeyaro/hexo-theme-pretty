@@ -201,3 +201,28 @@ footer_beautify:
   swiper_css: https://npm.elemecdn.com/hexo-butterfly-swiper/lib/swiper.min.css
   swiper_js: https://npm.elemecdn.com/hexo-butterfly-swiper/lib/swiper.min.js
   swiperbdage_init_js: https://npm.elemecdn.com/hexo-butterfly-footer-beautify/lib/swiperbdage_init.min.js
+
+# hexo-butterfly-categories-card
+# see https://akilar.top/posts/a9131002/
+categoryBar:
+  enable: true # 开关
+  priority: 5 # 过滤器优先权
+  enable_page: / # 应用页面
+  layout: # 挂载容器类型
+    type: id
+    name: recent-posts
+    index: 0
+  column: odd # odd：3列 | even：4列
+  row: 1 # 显示行数，默认两行，超过行数切换为滚动显示
+  message:
+    - descr: 技术
+      cover: /lib/img/category_technology.jpg
+    - descr: 后端
+      cover: /lib/img/category_backend.jpeg
+    - descr: 运维
+      cover: /lib/img/category_operation.jpg
+    - descr: 前端
+      cover: /lib/img/category_frontend.jpg
+    - descr: 生活
+      cover: /lib/img/category_life.jpg
+  custom_css: https://npm.elemecdn.com/hexo-butterfly-categories-card@1.0.0/lib/categorybar.css
