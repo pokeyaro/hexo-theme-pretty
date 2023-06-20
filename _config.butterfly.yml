@@ -689,7 +689,7 @@ canvas_fluttering_ribbon:
 # canvas_nest
 # https://github.com/hustcc/canvas-nest.js
 canvas_nest:
-  enable: true
+  enable: false
   color: '0,0,255' #color of lines, default: '0,0,0'; RGB values: (R,G,B).(note: use ',' to separate.)
   opacity: 0.7 # the opacity of line (0~1), default: 0.5.
   zIndex: -1 # z-index property of the background, default: -1.
@@ -914,6 +914,7 @@ inject:
   head:
     - <link rel="stylesheet" href="/lib/css/base.css" media="defer" onload="this.media='all'">
   bottom:
+    - <canvas id="universe"></canvas>
     - <script src="/lib/js/base.js" type="module" defer></script>
 
 # CDN
