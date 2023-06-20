@@ -51,4 +51,3 @@ Tips：该脚本的本质是运行 Make 的 target，如果本地没有 Make 命
 
 ![img](assets/screenshot-03.png)
 
-![img](assets/screenshot-04.png)
