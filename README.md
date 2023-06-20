@@ -45,9 +45,9 @@ Tips：该脚本的本质是运行 Make 的 target，如果本地没有 Make 命
 
 ## v2 截图
 
-![img](assets/screenshot-01.png)
+![img](assets/screenshot-01.jpg)
 
-![img](assets/screenshot-02.png)
+![img](assets/screenshot-02.jpg)
 
-![img](assets/screenshot-03.png)
+![img](assets/screenshot-03.jpg)
 
