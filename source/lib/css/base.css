@@ -22,6 +22,12 @@
     background: transparent !important;
 }
 
+/* 翻页按钮居中 */
+#pagination {
+    width: 100%;
+    margin: auto;
+}
+
 /* 加载字体 */
 /* JetBrains Mono 不解释 */
 @font-face {
