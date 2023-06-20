@@ -3,6 +3,7 @@ title: Hello World
 copyright: true
 abbrlink: 516829374
 date: 2023-06-19 00:00:00
+swiper_index: 99999 # 置顶轮播图顺序，非负整数，数字越大越靠前
 ---
 
 # Hello World
