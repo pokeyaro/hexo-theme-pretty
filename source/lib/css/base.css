@@ -1,3 +1,10 @@
+:root {
+    --trans-light: rgba(255, 255, 255, 0.88);
+    --trans-dark: rgba(25, 25, 25, 0.88);
+    --border-style: 1px solid rgb(169, 169, 169);
+    --backdrop-filter: blur(5px) saturate(150%);
+}
+
 /* 加载字体 */
 /* JetBrains Mono 不解释 */
 @font-face {
@@ -31,6 +38,26 @@
     font-display: block;
 }
 
+/* 首页文章卡片 */
+#recent-posts > .recent-post-item {
+    border-radius: 25px;
+    border: var(--border-style);
+}
+
+/* 首页侧栏卡片 */
+#aside-content .card-widget {
+    border-radius: 18px;
+    border: var(--border-style);
+}
+
+/* 文章页、归档页、普通页面 */
+div#post,
+div#page,
+div#archive {
+    border: var(--border-style);
+    border-radius: 20px;
+}
+
 /* 页脚与头图透明 */
 #footer {
     background: transparent !important;
@@ -53,6 +80,24 @@
 }
 [data-theme="dark"] #page-header::before {
     background: transparent !important;
+}
+
+/* 阅读模式 */
+.read-mode #aside-content .card-widget {
+    background: rgba(158, 204, 171, 0.5) !important;
+}
+.read-mode div#post {
+    background: rgba(158, 204, 171, 0.5) !important;
+}
+
+/* 夜间模式下的阅读模式 */
+[data-theme="dark"] .read-mode #aside-content .card-widget {
+    background: rgba(25, 25, 25, 0.9) !important;
+    color: #ffffff;
+}
+[data-theme="dark"] .read-mode div#post {
+    background: rgba(25, 25, 25, 0.9) !important;
+    color: #ffffff;
 }
 
 /* 翻页按钮居中 */
@@ -318,3 +363,4 @@
     -ms-transform: scale(0.5);
     -o-transform: scale(0.5);
 }
+
