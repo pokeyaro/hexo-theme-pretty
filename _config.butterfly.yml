@@ -238,7 +238,7 @@ aside:
       link: https://github.com/xxxxx
   card_announcement:
     enable: true
-    content: 欢迎来到我的博客！
+    content: <center><span>👏&nbsp;欢迎来到我的博客！</span><br><b>--- 主域名 ---<br><a href="https://github.com/pokeyaro/hexo-theme-pretty" title="此线路部署于xxx" class="anno_content"><font color="#5ea6e5">github.com/pokeyaro</font></a><br>--- 备用域名 ---<br><a href="https://github.com/pokeyaro/hexo-theme-pretty" title="此线路部署于xxx" class="anno_content"><font color="#5ea6e5">github.com/pokeyaro</font></a><br></b></center>
   card_recent_post:
     enable: true
     limit: 5 # if set 0 will show all
