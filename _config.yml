@@ -135,7 +135,7 @@ live2d:
   display:
     position: left # 控制看板娘位置
     width: 150 # 控制看板娘大小
-    height: 390 # 控制看板娘大小
+    height: 490 # 控制看板娘大小
   mobile:
     show: false # 移动端是否显示
 

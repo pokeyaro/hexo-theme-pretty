@@ -913,7 +913,9 @@ css_prefix: true
 inject:
   head:
     - <link rel="stylesheet" href="/lib/css/base.css" media="defer" onload="this.media='all'">
+    - <span id="fps"></span> # 帧率检测
   bottom:
+    - <script async src="/lib/js/fps.js"></script> # 帧率检测
     - <canvas id="universe"></canvas>
     - <script src="/lib/js/base.js" type="module" defer></script>
     - <script src="/lib/js/cursor.js" type="module" defer></script>
