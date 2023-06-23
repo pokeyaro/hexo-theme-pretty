@@ -806,7 +806,7 @@ Plants need CO<sub>2</sub>
 <!-- tab 语法 -->
 ```markdown
 {% wow [animete], [duration], [delay], [offset], [iteration] %}
-内容
+content
 {% endwow %}
 ```
 <!-- endtab -->
@@ -925,10 +925,10 @@ Plants need CO<sub>2</sub>
 
 {% tabs sheet %}
 
-<!-- tab语法 -->
+<!-- tab 语法 -->
 ```markdown
 {% poem [title], [author] %}
-诗词内容
+content
 {% endpoem %}
 ```
 <!-- endtab -->
@@ -1143,7 +1143,7 @@ content
 ```markdown
 {% tabs Unique name, [index] %}
 <!-- tab [Tab caption] [@icon] -->
-Any content (support inline tags too).
+content
 <!-- endtab -->
 {% endtabs %}
 ```
@@ -1256,10 +1256,11 @@ content
 ```markdown
 {% timeline 时间线标题（可选）[,color] %}
 <!-- timeline 时间节点（标题） -->
-正文内容
+content
 <!-- endtimeline -->
+
 <!-- timeline 时间节点（标题） -->
-正文内容
+content
 <!-- endtimeline -->
 {% endtimeline %}
 ```
