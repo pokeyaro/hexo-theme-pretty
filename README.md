@@ -45,9 +45,16 @@ Tips：该脚本的本质是运行 Make 的 target，如果本地没有 Make 命
 
 ## v2 截图
 
-![img](assets/screenshot-01.jpg)
+![img](assets/screenshot-01.png)
 
-![img](assets/screenshot-02.jpg)
+![img](assets/screenshot-02.png)
 
-![img](assets/screenshot-03.jpg)
+![img](assets/screenshot-03.png)
 
+## 如何编写文章
+
+> 使用标准 `Markdown` 格式，或 `Butterfly` 外挂标签!
+
+*测试环境运行后点击链接：* [Markdown 语法与外挂标签格式](http://localhost:4000/posts/790844471)
+
+![img](assets/screenshot-04.png)
